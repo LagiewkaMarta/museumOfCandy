@@ -1,0 +1,24 @@
+body {
+  background: lighten(#f5d9d5, 5%);
+  font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+  .navbar-brand {
+    color: #FF66CB;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .custom-toggler.navbar-toggler {
+    border: 2px dotted rgba(255,102,203, .3);
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+  } 
+  .nav-link {
+    color: lighten(#FF66CB, 7%);
+    &:hover {
+        color: darken(#FF66CB, 5%);
+  }
+}
+}
