@@ -1,5 +1,5 @@
 body {
-  background: lighten(#f5d9d5, 5%);
+  background: #f5d9d5;
   font-family: "Nunito", sans-serif;
 }
 
@@ -16,9 +16,26 @@ body {
     }
   } 
   .nav-link {
-    color: lighten(#FF66CB, 7%);
+    color: lighten(#FF66CB, 2%);
+    font-weight: 100;
     &:hover {
         color: darken(#FF66CB, 5%);
   }
 }
+}
+
+#headingGroup {
+  h1 {
+    font-weight: 100;
+    font-size: 4rem;
+  }
+  span {
+  text-transform: uppercase;
+  color: #FF66CB;
+  }
+  @media (max-width: 1200px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
 }

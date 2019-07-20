@@ -1,5 +1,5 @@
 body {
-  background: #faecea;
+  background: #f5d9d5;
   font-family: "Nunito", sans-serif; }
 
 #mainNavbar .navbar-brand {
@@ -11,8 +11,19 @@ body {
   #mainNavbar .custom-toggler.navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 #mainNavbar .nav-link {
-  color: #ff8ad7; }
+  color: #ff70ce;
+  font-weight: 100; }
   #mainNavbar .nav-link:hover {
     color: #ff4dc2; }
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem; }
+#headingGroup span {
+  text-transform: uppercase;
+  color: #FF66CB; }
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 3rem; } }
 
 /*# sourceMappingURL=app.css.map */
