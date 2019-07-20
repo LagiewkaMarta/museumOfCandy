@@ -26,4 +26,16 @@ body {
   #headingGroup h1 {
     font-size: 3rem; } }
 
+#info, #stories, #contact {
+  margin-bottom: 100px; }
+  #info h2, #stories h2, #contact h2 {
+    color: #FF66CB;
+    font-weight: 100;
+    font-size: 2.5rem; }
+  #info p, #stories p, #contact p {
+    color: #01aee7;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2rem; }
+
 /*# sourceMappingURL=app.css.map */

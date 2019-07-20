@@ -39,3 +39,21 @@ body {
     }
   }
 }
+
+
+
+#info, #stories, #contact {
+  margin-bottom: 100px;
+  h2 {
+    color: #FF66CB;
+    font-weight: 100;
+    font-size: 2.5rem;
+  }
+
+  p {
+    color: #01aee7;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+}
